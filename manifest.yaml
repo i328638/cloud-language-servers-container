@@ -4,7 +4,7 @@ applications:
   memory: 1024M
   instances: 1
   path: target/LSPServerCF.war
-  buildpack: https://github.com/SAP/cf-language-server-buildpack.git
+  buildpack: https://github.com/SAP/i328638/cf-language-server-buildpack.git
   stack: cflinuxfs2
   env: 
     JAVA-OPTS: -agentlib:jdwp=transport=dt_socket,address=195.93.234.9:8000
